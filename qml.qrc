@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Login.qml</file>
+        <file>Home.qml</file>
+        <file>main.cpp</file>
+        <file>Icon/unit.png</file>
+        <file>Icon/kg.png</file>
+        <file>Icon/backpack1.png</file>
+        <file>Icon/backpack2.png</file>
+        <file>Icon/backpack3.png</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>
