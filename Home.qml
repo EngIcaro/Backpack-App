@@ -61,7 +61,8 @@ Item {
                     Material.background: "#fab6fa"
                     onClicked: {
                         var auxKg = parseFloat(fieldKg.text)
-                        labelKg.text = auxKg*0.1 + " KG"
+                        labelKg.text = (auxKg*0.1).toFixed(1) + " KG"
+                        console.log(auxKg*0.1 )
                         fieldKg.echoMode= TextInput.Normal
                         fieldKg.text = "Peso Corporal em KG"
                         fieldKg.color = "#999999"
