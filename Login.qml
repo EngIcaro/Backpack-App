@@ -10,7 +10,7 @@ Item {
     Timer {
         interval: 1500; running: true;
         onTriggered:{
-            stackView.replace(homeComponent, StackView.PopTransition)
+            //stackView.replace(homeComponent, StackView.PopTransition)
 
         }
     }
